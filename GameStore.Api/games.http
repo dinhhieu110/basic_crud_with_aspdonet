@@ -5,3 +5,13 @@ GET http://localhost:5119/games
 ###
 GET http://localhost:5119/games/3
 
+###
+POST http://localhost:5119/games
+Content-Type:  application/json
+
+{
+  "name": "Gunny",
+  "genre": "Fighting",
+  "price": 40.99,
+  "releaseDate": "2025-03-27"
+}
