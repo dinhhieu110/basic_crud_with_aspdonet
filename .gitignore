@@ -1,0 +1,47 @@
+# User-specific files
+.idea/
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# .NET build results
+bin/
+obj/
+
+# ASP.NET Core
+wwwroot/
+
+# Build results
+out/
+
+# User secrets
+secrets.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# NPM packages
+node_modules/
+
+# TypeScript definition files
+typings/
+
+# JetBrains Rider
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
