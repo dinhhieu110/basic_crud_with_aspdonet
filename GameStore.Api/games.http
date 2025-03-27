@@ -1,0 +1,7 @@
+# Client to interact with APIs
+
+GET http://localhost:5119/games
+
+###
+GET http://localhost:5119/games/3
+
