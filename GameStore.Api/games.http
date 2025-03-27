@@ -26,3 +26,6 @@ Content-Type:  application/json
   "price": 40.99,
   "releaseDate": "2025-03-27" 
 }
+
+###
+DELETE  http://localhost:5119/games/1
