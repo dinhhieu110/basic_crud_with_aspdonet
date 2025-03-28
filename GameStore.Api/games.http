@@ -3,21 +3,21 @@
 GET http://localhost:5119/games
 
 ###
-GET http://localhost:5119/games/4
+GET http://localhost:5119/games/2
 
 ###
 POST http://localhost:5119/games
 Content-Type:  application/json
 
 {
-  "name": "Gunny 3",
+  "name": "Gunny 1",
   "genreId": 5,
   "price": 40.99,
   "releaseDate": "2025-03-27" 
 }
 
 ###
-PUT http://localhost:5119/games/4
+PUT http://localhost:5119/games/2
 Content-Type:  application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type:  application/json
 }
 
 ###
-DELETE  http://localhost:5119/games/6
+DELETE  http://localhost:5119/games/2
