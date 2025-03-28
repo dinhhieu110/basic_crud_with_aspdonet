@@ -3,29 +3,29 @@
 GET http://localhost:5119/games
 
 ###
-GET http://localhost:5119/games/1
+GET http://localhost:5119/games/4
 
 ###
 POST http://localhost:5119/games
 Content-Type:  application/json
 
 {
-  "name": "Gunny 2",
+  "name": "Gunny 3",
   "genreId": 5,
   "price": 40.99,
   "releaseDate": "2025-03-27" 
 }
 
 ###
-PUT http://localhost:5119/games/1
+PUT http://localhost:5119/games/4
 Content-Type:  application/json
 
 {
-  "name": "Updated Name",
-  "genre": "Fighting",
+  "name": "Gunny 2.5",
+  "genreId": 2,
   "price": 40.99,
   "releaseDate": "2025-03-27" 
 }
 
 ###
-DELETE  http://localhost:5119/games/1
+DELETE  http://localhost:5119/games/6
