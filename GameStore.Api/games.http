@@ -10,8 +10,8 @@ POST http://localhost:5119/games
 Content-Type:  application/json
 
 {
-  "name": "Gunny",
-  "genre": "Fighting",
+  "name": "Gunny 2",
+  "genreId": 5,
   "price": 40.99,
   "releaseDate": "2025-03-27" 
 }
